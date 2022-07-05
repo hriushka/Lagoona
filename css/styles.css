@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerBold.woff2") format("woff2");
+    src: url("../fonts/MullerLight.woff2") format("woff2");
+    src: url("../fonts/MullerMedium.woff2") format("woff2");
+    src: url("../fonts/MullerRegular.woff2") format("woff2");
+}
+
+body {
+    font-family: "Muller", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.yelow-star {
+    color: #F0BF5F;
+}
+
+.white-star {
+    color:  #d3d3d3;
+}
+
+.container {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    max-height: 160px;
+    margin-bottom: 70px;
+}
+
+.header-contacts {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    max-width: 50%;
+}
+
+.header-contacts {
+    margin-left: 45px;
+}
+
+.header-contacts-info {
+    margin: auto;
+}
+
+.header-right {
+    max-width: 50%;
+    display: flex;
+}
+
+.personal-office {
+    margin: auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.btn-right {
+    display: flex;
+}
+
+
+.btn-link {
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 40px;
+}
+
+.specoffer-list {
+    display: flex;
+}
+
+.specoffer-left {
+    padding-right: 320px;
+}
+
+.specoffer {
+    margin-bottom: 65px;
+}
+
+.about-us-title {
+    margin-bottom: 25px;
+}
+
+.about-us-text {
+    max-width: 885px;
+    margin-bottom: 75px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-block {
+    max-width: 50%;
+}
+
+.service { 
+margin-bottom: 50px;
+}
+
+.service-low {
+    margin-bottom: 60px;
+}
+
+.advantage-title {
+    margin-bottom: 45px;
+}
+
+.adventage-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.advantage-item {
+    width: calc(100%/4);
+}
+
+.advantage-item:nth-last-child(4) {
+    margin-bottom: 45px;
+}
+
+.location-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location-item {
+    width: calc(100%/3);
+}
+
+.hotel-img {
+    margin-bottom: 19px;
+}
+
+.location-description {
+    margin-bottom: 47px;
+}
+.hotel-room-link {
+ border: 1px solid #CC9933;
+ border-radius: 10px;
+ padding: 10px 15px;
+ margin-right: 40px;
+}
